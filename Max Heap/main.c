@@ -143,6 +143,7 @@ int main()
 		case 'p': // 레벨별 출력
 			k = (int)log2(heap->heap_size);
 
+			// 수정 해야됨
 			for (int i = 1; i <= k + 1; i++) {
 				printf("[%d] : ", i);
 				for (int j = 1; j <= pow(2,i)-1; j++) {
